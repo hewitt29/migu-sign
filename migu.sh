@@ -1,4 +1,19 @@
 #!/usr/bin/env bash 
 
-curl -H "Cookie: ${COOKIE}" -H "Content-Type: application/json; charset=UTF-8" -X POST -d '{}' 'https://gw.aikan.miguvideo.com/ygw/api/dispatch/energy-center/energy/upload'
-
+curl -X POST 'https://gw.aikan.miguvideo.com/ygw/api/dispatch/migu-activity-custom/sign/sendAward' \
+  -H 'Host: gw.aikan.miguvideo.com' \
+  -H 'Accept: */*' \
+  -H 'hwcookie: undefined' \
+  -H 'EpgSession: JSESSIONID=04P6U1JU3GEZJ5KON0S5DKJMA85X4SO1' \
+  -H 'Accept-Encoding: gzip, deflate, br' \
+  -H 'Accept-Language: zh-CN,zh-Hans;q=0.9' \
+  -H 'Location: http://vsc.aikan.miguvideo.com:7136' \
+  -H 'Content-Type: application/json; charset=UTF-8' \
+  -H 'Origin: https://gw.aikan.miguvideo.com' \
+  -H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 15_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 iOSAmberV2.9.17 miguaikan' \
+  -H 'Referer: https://gw.aikan.miguvideo.com/h5-agg/center/1/index.html?channalNo=1&appVersion=916' \
+  -H 'Content-Length: 2' \
+  -H 'Connection: keep-alive' \
+  -H 'Cookie: EpgSession=JSESSIONID=04P6U1JU3GEZJ5KON0S5DKJMA85X4SO1; Location=http://vsc.aikan.miguvideo.com:7136; hwcookie=arrayid=ZJHZ-YDSP-APP-PHMServ47; version=9.1.6; mToken=5175f97cff781e716f96696ba92faa4c557f9b615dd2dde559e5e9e1b762d5505301a3a8f775166c34ccccb68a930cc085816abde4d2039c729a5ea6634990b550d8506664196b6b59cbe8a516c0461e39be701dbcf97efe9148b839daa11ae17394d71c45727f69c5f11eefae276127d9f48da53afb440a64fb1e27e4f59ad8569629e4c58d04dc28bd386fe5a2e27d3cd4fb73ea1c0db1601bb0bc3b51dcd198fa2b66e46c06c409c113416999f15ae444c4f4598adc62465e1903da1a388e2eb7bfd87852602ef09372c5053382f1908ea577118a120d1e2c5ba2c7d773c66b969bfa572ef69863b7cd83be9bcc0b72c5475f1331b881ad6bc3ee165ae0f3aceafa4deab8354c4f6ab56e8facab817e9d6d2332a28d4e79472f4c3c90122479147a7083c04077cc3fb1e64b455b07e2534aa4798e8d6b71dae0321e3a7eb02d1c92f9ea7e478bdc67efef1bd5d166e5d0300f2891fe83c18a09776a953c77463b8f9058392b657af735857ebbdeab9d7a3013b990e229f60e2d8d4c1de97fc42dbbb8f35efb4163d1795b21b4cd2fdb0b0e6f42dc5b64c0ad2b209d48730570c206365e5c1c8f818160e4e49d89899abbc9efba16b32dd2538dab06b9a07c4a33d8d55b518666fdec07dcd8c58f54caf321affec0ee2c41f3c9664d4b334f5d732eb85b1fa4d7f2328d256b41361f9d90c23c1f1021479ff7089e02f0d257c57cc7ca6389d1dee7e3718bcbda6e19b27dc23e78daf208b3b772e44b6ecefd54722557c4e8d81c798af84fa6fe58473df312c11871b40bae30c8ff912a28c03b8dcf2667feba358168ce4f6dce84a1ce534e5febce123e117421a6dad474a15c7b73751ff091037bb311d8f3c056c5b0e3ab59ff8a9766546c6ea27fee7a6eb169d1df8bbb971905a5e8e6990c4c0db9884d24d26ffad0592954c43a37c6dd4225e386090b2747adbc56ac21cbbc86ffa2eb7d292d44714bd03743428571c17c395eec029a3c87caac7ba2ada9eb977a2e6a8029299d9e6cd5e8fce08d375ba9f467caf8b8a513d926eec545f644cae2ec91b325c7bd27c203f497ce61a78d60c7ee275091fbb78c4c8aff88bd8d20cc69c0e7c372e70a509ca2ea6837e7f0fd6f1d261af4079ab34cdff34ff3175202b46c504dfc8cf836c8232ddf8d8d19ec86b714538c4c88c24215cd18358339c4a2df6174177b9c4a5707820eddf9621999307866997105fc1caa186a3295a73f33a6ca132b53fd83fc24172c1ae1a07554e91b859b78baa3f8810ef96d67681212deab05f56d4c615d2450a2f51905614aa04095d2cdb6060f24a8221a49acc27707ac3042eee5c9c73336571acb65d9fc4c42b34465b42c155beee5cb32558d520db9dc63cfe05a4cda16879444272627885e0af7e2ef225995c50017b4bd63643d74843efeb408b4e8a8831b91f26308ed661e1b0a9659ee2e7c9d08b23234c32f6779f126c801d0dd8b96f5f919fee555dc124c64a25f340832d2d4960c143cedb871f0edf1f9f325470faa03ab817570c7d5407cb4dff4cae1efae65a19194f7ce6403f1ebda5d427da448820ec0e9a76a19b37089a55f353839a0b9e5f8dc0a1971787bc808ace278736e95bc6e939d64fbde36d541c4f5c75307fb492f5695d3b292a01c8508a1decada707a3208ea5310536c1c26fd151cb2d322db3d5f242788861dbeb27582c3f4b67a7efec50b603a395173af4d9ce43f6a1195bdb306daffeae121baf6a6031826f113'  \
+   --data '{}' \
+  --compressed
