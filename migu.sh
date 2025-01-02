@@ -1,6 +1,6 @@
 #!/usr/bin/env bash 
 
-curl -X POST 'https://gw.aikan.miguvideo.com/ygw/api/dispatch/migu-activity-custom/sign/sendAward' \
+curl -X POST 'http://gw.aikan.miguvideo.com/ygw/api/dispatch/migu-activity-custom/sign/sendAward' \
   -H 'Host: gw.aikan.miguvideo.com' \
   -H 'Accept: */*' \
   -H 'hwcookie: undefined' \
